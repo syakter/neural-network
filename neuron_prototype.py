@@ -10,6 +10,6 @@ def calculate_neuron_value(inputs, weights, bias):
     assert inputs_len == weights_len, 'Length of both iterables must be the same'
     ############################################################
     value = 0
-    for index in range(inputs_len):
-        value += inputs[index] * weights[index]
+    for input, weight in zip(inputs, weights):
+        value += input * weight
     return functions.sigmoid(value + bias)
