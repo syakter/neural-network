@@ -10,7 +10,7 @@ def calculate_neuron_value(inputs, weights, bias):
     # error checking
     # Makes sure both values are the same length
     if inputs_len != weights_len:
-        raise Exception('Length of all three iterables must be the same')
+        raise Exception('Length of both iterables must be the same')
     ############################################################
     value = 0
     for index in range(inputs_len):
