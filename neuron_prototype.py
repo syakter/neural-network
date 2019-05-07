@@ -1,4 +1,4 @@
-import functions
+from .functions import *
 
 
 def calculate_neuron_value(inputs, weights, bias):
