@@ -1,5 +1,3 @@
-# This is a python file where I (Zachary) share the tests and prototypes I made.
-# Please do not edit without my permission.
 import functions
 
 
