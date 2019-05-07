@@ -1,0 +1,2 @@
+this is the dev branch, where everyone should work and merge in all their local branches
+we will then periodically merge the dev branch into master branch
